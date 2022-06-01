@@ -19,24 +19,22 @@ export default function Home(props) {
       <div>
       They are among the best-performing technology and most well-known companies in the world.
       </div>
-      </Hero>
-      
+      </Hero>     
       <FaangList companies={props.faang} />
-
     </Fragment>
   )
 }
 
 // STATIC SITE GENERATION
 export const getStaticProps = async () => {
-  // Fetch data from Internal API ("Code News")
-  const response = await axios.get(`${SERVER_NAME}/api/faang`);
-  const data = await response.data
+  // Fetch data
+  //const response = await axios.get(`${SERVER_NAME}/api/faang`);
+  //const data = await response.data
 
   // Returned data as props
   return {
     props: {
-      faang: data
+      faang: []
     },
   };
 };

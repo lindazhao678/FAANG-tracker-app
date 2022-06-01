@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import Card from '../ui/Card';
 import styles from './FaangItem.module.scss';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 function FaangItem(props) {
     const { company } = props
@@ -9,7 +9,7 @@ function FaangItem(props) {
 
     function handleNavigate() {
         router.push('/' + company.path);
-      }
+    }
 
     return (
         <Card>
@@ -31,16 +31,16 @@ function FaangItem(props) {
                     <p>Ticker: {company.ticker}</p>
                     <p>Exchange: {company.exchange}</p>
                 </div>
-                    
+
                 <div className={styles.link}>
                     <a href={company.liveStockURL}>
-                    Live Stock
-                    </a>   
+                        Live Stock
+                    </a>
                     <button onClick={handleNavigate}>
-                    <a>Read News</a>
-                    </button>   
+                        <a>Read News</a>
+                    </button>
                 </div>
-             </div>
+            </div>
         </Card>
     );
 }
