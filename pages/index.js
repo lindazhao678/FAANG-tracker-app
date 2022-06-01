@@ -27,14 +27,14 @@ export default function Home(props) {
 
 // STATIC SITE GENERATION
 export const getStaticProps = async () => {
-  // Fetch data
-  //const response = await axios.get(`${SERVER_NAME}/api/faang`);
-  //const data = await response.data
+//Fetch data
+  const response = await axios.get(`${SERVER_NAME}/api/faang`);
+  const data = await response.data
 
-  // Returned data as props
+//Returned data as props
   return {
     props: {
-      faang: []
+      faang: data
     },
   };
 };
