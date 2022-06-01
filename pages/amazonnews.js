@@ -26,7 +26,7 @@ export const getServerSideProps = async () => {
   const response = await axios.get(`https://newsapi.org/v2/everything?q=amazon&apiKey=${process.env.NEWS_API_KEY}`);
   const data = response.data.articles
 
-  // Returned data as props
+// Returned data as props
   return {
     props: {
       amazonNews: data

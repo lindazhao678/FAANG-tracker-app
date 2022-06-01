@@ -18,7 +18,7 @@ function NewsItem(props) {
                 </div>
                     
                 <div className={styles.link}>
-                    <a href={news.url}>
+                    <a href={news.url} target="_blank" rel="noreferrer">
                     Read More
                     </a>     
                 </div>

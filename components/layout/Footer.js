@@ -1,6 +1,5 @@
 import styles from './Footer.module.scss'
 import Link from 'next/link'
-import { MdOutlineCodeOff } from 'react-icons/md';
 
 function Footer() {
     const getCurrentYear = () => {
@@ -17,7 +16,7 @@ function Footer() {
                     </Link>
                 </div>
                 <p>
-                    Copyright &copy; {getCurrentYear()} <a className={styles.exlink} href="http://lijunzhao.com">Lijun Zhao</a>
+                    Copyright &copy; {getCurrentYear()} <a className={styles.exlink} href="http://lijunzhao.com" target="_blank" rel="noreferrer">Lijun Zhao</a>
                 </p>
                 <nav>
                     <ul>
@@ -27,7 +26,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link href='/about'>
+                            <Link href='/contact'>
                                 <a>Contact Us</a>
                             </Link>
                         </li>
