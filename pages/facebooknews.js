@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import axios from "axios";
 import Hero from "../components/layout/Hero";
-import NewsList from '../components/news/newsList';
+import NewsList from '../components/news/NewsList';
 
 function FacebookNews(props) {
   return (
