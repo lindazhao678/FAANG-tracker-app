@@ -12,7 +12,7 @@ function About() {
                 </div>
                 <div>
                     <h1>Our mission</h1>
-                    <p>Our mission is to help anyone who are intersted or who have already invested at the five FAANG stocks to be timely advised and be able to make the right investment decisions.</p>
+                    <p>Our mission is to help anyone who are interested or who have already invested at the five FAANG stocks to be timely advised and be able to make the right investment decisions.</p>
                 </div>
             </div>
         </div>
