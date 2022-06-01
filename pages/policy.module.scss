@@ -1,0 +1,15 @@
+@use "../styles/sass/abstracts/" as *;
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+
+  h1 {
+    color: $brand-color;
+  }
+
+  p {
+    line-height: 1.5rem;
+    color: $font-color;
+  }
+}

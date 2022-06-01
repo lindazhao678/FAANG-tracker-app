@@ -1,0 +1,9 @@
+@use "../../styles/sass/abstracts/" as *;
+
+.card {
+background-color: white;
+  border: 1px solid $primary-color;
+  border-left: 6px solid $primary-color;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px $primary-color;
+}

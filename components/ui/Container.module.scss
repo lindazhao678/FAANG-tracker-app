@@ -1,0 +1,8 @@
+.container {
+    margin: 5rem 5rem;
+    max-width: 80rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    justify-content: center;
+  }
