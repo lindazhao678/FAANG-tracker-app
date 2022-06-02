@@ -11,7 +11,7 @@ function About() {
                     <p>Whether you have a comment or suggestion to share, we look forward to hearing from you. Feel free to reach out.</p>
                 </div>
                 <a
-                href="mailto:lindazhao678@gmail.com"
+                href="mailto:faangtracker@gmail.com"
                 >
                 <FaEnvelope />
                 </a>
