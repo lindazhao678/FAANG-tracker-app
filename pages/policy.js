@@ -1,4 +1,4 @@
-import styles from './policy.module.scss'
+import styles from '../components/static/policy.module.scss'
 
 function Policy() {
     return ( 

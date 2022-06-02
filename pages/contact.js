@@ -1,7 +1,7 @@
 import { FaEnvelope } from 'react-icons/fa'
-import styles from './contact.module.scss'
+import styles from '../components/static/contact.module.scss'
 
-function About() {
+function Contact() {
     return ( 
         <div className={styles.container}>
             <div className={styles.content}>
@@ -20,4 +20,4 @@ function About() {
     );
 }
 
-export default About;
+export default Contact;

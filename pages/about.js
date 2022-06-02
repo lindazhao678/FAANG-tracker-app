@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { FaEnvelope } from 'react-icons/fa'
-import styles from './about.module.scss'
+import styles from '../components/static/about.module.scss'
 
 function About() {
     return ( 

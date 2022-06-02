@@ -20,8 +20,8 @@ function AmazonNews(props) {
   );
 }
 
-// SERVER SIDE GENERATION
-export const getServerSideProps = async () => {
+// STATIC SITE GENERATION
+export const getStaticProps = async () => {
   // External API Request: NewsAPI (All articles about Amazon)
   const response = await axios.get(`https://newsapi.org/v2/everything?q=amazon&apiKey=${process.env.NEWS_API_KEY}`);
   const data = response.data.articles
@@ -31,6 +31,7 @@ export const getServerSideProps = async () => {
     props: {
       amazonNews: data
     },
+    revalidate: 86400
   };
 };
 

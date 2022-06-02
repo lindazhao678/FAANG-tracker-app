@@ -20,8 +20,8 @@ function GoogleNews(props) {
   );
 }
 
-// SERVER SIDE GENERATION
-export const getServerSideProps = async () => {
+// STATIC SITE GENERATION
+export const getStaticProps = async () => {
   // External API Request: NewsAPI (All articles about Google)
   const response = await axios.get(`https://newsapi.org/v2/everything?q=google&apiKey=${process.env.NEWS_API_KEY}`);
   const data = response.data.articles
@@ -31,6 +31,7 @@ export const getServerSideProps = async () => {
     props: {
       googleNews: data
     },
+    revalidate: 86400
   };
 };
 
