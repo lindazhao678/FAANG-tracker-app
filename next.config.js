@@ -9,8 +9,10 @@ const nextConfig = {
       'cdn.vox-cdn.com',
       'www.reuters.com',
       'ajo.prod.reuters.tv'
-
     ],
+  },
+  env: {
+    GOOGLE_ANALYTICS_ID: 'G-6WH8GLTSH1'
   }
 }
 
