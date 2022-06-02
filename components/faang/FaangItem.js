@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import Card from '../ui/Card';
 import styles from './FaangItem.module.scss';
+import Image from 'next/image';
 
 function FaangItem(props) {
     const { company } = props
@@ -14,8 +15,14 @@ function FaangItem(props) {
         <Card>
             <div className={styles.item}>
                 <div className={styles.image}>
-                    <img src={company.image} alt={company.title} />
-                </div>
+                    <Image 
+                        src={company.image} 
+                        alt={company.title} 
+                        width={650}
+                        height={650}
+                        layout="intrinsic"
+                    /> 
+                    </div>
 
                 <div className={styles.content}>
                     <h3>{company.title}</h3>
