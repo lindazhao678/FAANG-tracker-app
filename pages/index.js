@@ -15,7 +15,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero title={'FAANG Stocks'}>
-      <div><strong>F</strong>acebook,<strong>A</strong>mazon, <strong>A</strong>pple, <strong>N</strong>etflix, and <strong>G</strong>oogle are the publicly traded stocks of U.S. technology giants.</div>
+      <div><strong>F</strong>acebook,<strong>A</strong>mazon, <strong>A</strong>pple, <strong>N</strong>etflix, and <strong>G</strong>oogle are the publicly traded stocks of technology giants.</div>
       <div>
       They are among the best-performing technology and most well-known companies in the world.
       </div>
