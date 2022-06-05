@@ -18,8 +18,8 @@ function FaangItem(props) {
                     <Image 
                         src={company.image} 
                         alt={company.title} 
-                        width={650}
-                        height={650}
+                        width={100}
+                        height={100}
                         layout="intrinsic"
                     /> 
                     </div>

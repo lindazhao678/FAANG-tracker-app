@@ -21,6 +21,40 @@ function Footer() {
                 <nav>
                     <ul>
                         <li>
+                            <Link href='/facebooknews'>
+                                <a>Facebook</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href='/amazonnews'>
+                                <a>Amazaon</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href='/applenews'>
+                                <a>Apple</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href='/netflixnews'>
+                                <a>Netflix</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href='/googles'>
+                                <a>Google</a>
+                            </Link>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link href='/'>
+                                <a>Home</a>
+                            </Link>
+                        </li>
+                        <li>
                             <Link href='/about'>
                                 <a>About Us</a>
                             </Link>

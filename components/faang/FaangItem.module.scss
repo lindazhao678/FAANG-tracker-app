@@ -5,7 +5,8 @@
   flex-direction: column;
 
   .image {
-    padding: 2rem 6rem 0 6rem;
+    display: block;
+    margin: 2rem auto 0;
 
     img {
       width: 100%;

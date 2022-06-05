@@ -3,47 +3,45 @@
 .footer {
   border-top: 2px solid $primary-color;
   width: 100%;
-  height: 7rem;
+  height: 10rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 0 5rem;
+  justify-content: space-between;
+  padding: 0 2rem;
 
   p {
-      color: $font-color;
+    color: $font-color;
 
-      .exlink {
-        text-decoration: underline;
-        color: $brand-color;
+    .exlink {
+      text-decoration: underline;
+      color: $brand-color;
 
-        &:hover,
-        &:active {
-          color: $primary-color;
-        }
+      &:hover,
+      &:active {
+        color: $primary-color;
       }
+    }
   }
 
   nav {
     ul {
       list-style: none;
+      text-decoration: underline;
       display: flex;
       flex-direction: column;
-      
-      li{
-        margin-top: 1rem;
-          a {
-            text-decoration: none;
-            font-size: 1rem;
-            color: $font-color;
-    
-            &:hover,
-            &:active {
-              color: $primary-color;
-              border-bottom: 2px solid;
-            }
-          }
-      }
 
+      li {
+        margin-top: 1rem;
+        a {
+          text-decoration: none;
+          font-size: 1rem;
+          color: $font-color;
+
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
     }
   }
 }
@@ -54,5 +52,38 @@
 
   .brandtext {
     background-color: $brand-color;
+    &:hover {
+      background-color: $primary-color;
+      color: $brand-color;
+    }
+  }
+}
+
+@media (max-width: $md) {
+  .footer {
+    height: 4rem;
+    justify-content: center;
+    .brand {
+      font-size: 0.8rem;
+      padding-right: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+    nav {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .footer {
+    height: 3rem;
+    .brand {
+      font-size: 0.6rem;
+    }
+    p {
+      font-size: 0.6rem;
+    }
   }
 }
