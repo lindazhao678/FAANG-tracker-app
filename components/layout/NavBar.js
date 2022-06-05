@@ -1,13 +1,20 @@
 import Link from 'next/link';
 import styles from './NavBar.module.scss';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 function NavBar() {
+  const router = useRouter();
   const [active, setActive] = useState(false)
 
   const toggleClass = () => {
     setActive(!active);
   }
+  useEffect(() => {
+    router.events.on('routeChangeStart', ()=>{
+      setActive(false);
+    })
+  })
 
   return (
     <header className={styles.header}>
