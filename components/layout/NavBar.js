@@ -20,7 +20,7 @@ function NavBar() {
     <header className={styles.header}>
       <div className={styles.brand}>
         <Link href='/'>
-          <a className={styles.brandtext}>
+          <a className={styles.brandText}>
             FAANG tracker
           </a>
         </Link>
@@ -85,6 +85,9 @@ function NavBar() {
           </li>
           <li className={styles.menuItem}>
             <Link href='/contact'><a>Contact</a></Link>
+          </li>
+          <li className={styles.menuItem}>
+            <Link href='/policy'><a>Privacy Policy</a></Link>
           </li>
         </ul>
       </div>

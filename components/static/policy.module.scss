@@ -13,3 +13,10 @@
     color: $font-color;
   }
 }
+
+@media (max-width: $sm) {
+  .container {
+    width: 90%;
+  }
+}
+

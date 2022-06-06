@@ -9,12 +9,18 @@
     flex-direction: column;
 
     h1 {
-        color: $brand-color;
+      color: $brand-color;
     }
 
     p {
-        line-height: 1.5rem;
-        color: $font-color;
+      line-height: 1.5rem;
+      color: $font-color;
     }
+  }
+}
+
+@media (max-width: $sm) {
+  .container {
+    width: 90%;
   }
 }
