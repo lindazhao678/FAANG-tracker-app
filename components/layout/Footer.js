@@ -16,7 +16,7 @@ function Footer() {
                     </Link>
                 </div>
                 <p>
-                    Copyright &copy; {getCurrentYear()} <a className={styles.exlink} href="http://lijunzhao.com" target="_blank" rel="noreferrer">Lijun Zhao</a>
+                    Copyright &copy; {getCurrentYear()} <a className={styles.exlink} href="https://lijunzhao.com" target="_blank" rel="noreferrer">Lijun Zhao</a>
                 </p>
                 <nav>
                     <ul>

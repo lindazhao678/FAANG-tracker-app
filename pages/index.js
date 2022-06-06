@@ -11,7 +11,7 @@ export default function Home(props) {
     <Fragment>
       <Head>
         <title>FAANG tracker app | FAANG stocks</title>
-        <meta name="description" description="keep on track with FAANG stockes and news." />
+        <meta name="description" content="keep on track with FAANG stockes and news." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero title={'FAANG Stocks'}>

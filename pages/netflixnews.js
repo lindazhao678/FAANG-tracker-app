@@ -11,7 +11,7 @@ function NetflixNews(props) {
         <title>FAANG tracker app | Facebook News</title>
         <meta 
           name='description'
-          description='Keep on track with lastest news of Netflix'
+          content='Keep on track with lastest news of Netflix'
         />
       </Head>
       <Hero title={'Netflix News'} description={'Keep on track with the lastest news of Netflix'}/>

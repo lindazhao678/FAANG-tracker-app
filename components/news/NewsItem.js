@@ -11,15 +11,6 @@ function NewsItem(props) {
             <div className={styles.item}>
                 <div className={styles.image}>
                     <img src={news.urlToImage} alt={news.title} />
-                    {/* <Image 
-                        src={news.urlToImage} 
-                        alt={news.title} 
-                        width={650}
-                        height={400}
-                        layout="intrinsic"
-                        loading="lazy"
-                 
-                    />  */}
                 </div>
                 <div className={styles.content}>
                     <h3>{news.title}</h3>

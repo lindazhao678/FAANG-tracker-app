@@ -7,6 +7,7 @@ function Policy() {
         <Fragment>
             <Head>
                 <title>FAANG tracker app | FAANG stocks</title>
+                <meta name="description" content="privacy policy of FAANG tracker." />
             </Head>
             <div className={styles.container}>
                 <div>

@@ -7,6 +7,7 @@ function About() {
         <Fragment>
             <Head>
                 <title>FAANG tracker app | FAANG stocks</title>
+                <meta name="description" content="About FAANG tracker." />
             </Head>
             <div className={styles.container}>
                 <div className={styles.content}>

@@ -8,6 +8,7 @@ function Contact() {
         <Fragment>
             <Head>
                 <title>FAANG tracker app | FAANG stocks</title>
+                <meta name="description" content="contact FAANG tracker." />
             </Head>
             <div className={styles.container}>
                 <div className={styles.content}>

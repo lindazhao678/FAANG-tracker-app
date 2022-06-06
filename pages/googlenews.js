@@ -11,7 +11,7 @@ function GoogleNews(props) {
         <title>FAANG tracker app | Google News</title>
         <meta 
           name='description'
-          description='Keep on track with lastest news of Google'
+          content='Keep on track with lastest news of Google'
         />
       </Head>
       <Hero title={'Google News'} description={'Keep on track with the lastest news of Google'}/>

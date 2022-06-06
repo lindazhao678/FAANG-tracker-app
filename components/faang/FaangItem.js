@@ -1,15 +1,9 @@
-import { useRouter } from 'next/router';
 import Card from '../ui/Card';
 import styles from './FaangItem.module.scss';
 import Image from 'next/image';
 
 function FaangItem(props) {
     const { company } = props
-    const router = useRouter()
-
-    function handleNavigate() {
-        router.push('/' + company.path);
-    }
 
     return (
         <Card>
@@ -35,7 +29,7 @@ function FaangItem(props) {
                     <a href={company.liveStockURL} target="_blank" rel="noreferrer">
                         Live Stock
                     </a>
-                    <a onClick={handleNavigate}>
+                    <a href={'/' + company.path}>
                         Read News
                     </a>
                 </div>
